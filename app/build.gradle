@@ -10,8 +10,8 @@ android {
         applicationId "com.dzg.kurozenframe"
         minSdk 19
         targetSdk 19
-        versionCode 1
-        versionName "0.1"
+        versionCode 2
+        versionName "1.0"
     }
 }
 
