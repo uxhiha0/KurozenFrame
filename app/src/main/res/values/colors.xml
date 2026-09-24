@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#050505</color>
+    <color name="panel">#111111</color>
+    <color name="crimson">#B00020</color>
+    <color name="red">#E10600</color>
+    <color name="white">#F5F5F5</color>
+    <color name="muted">#9A9A9A</color>
+</resources>
