@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="28dp"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𖤐  DZG KUROZEN"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.08"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE BLACK SOVEREIGN"
+        android:textColor="@color/muted"
+        android:textSize="11sp"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/panel">
+
+        <TextView
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            android:textColor="@color/white"
+            android:textSize="68sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THURSDAY • SEPTEMBER 24"
+            android:textColor="@color/red"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KUROZEN FRAME • ONLINE"
+            android:textColor="@color/muted"
+            android:textSize="12sp"
+            android:layout_marginTop="26dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/vphoto"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="V PHOTO"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="12dp"
+        android:text="ANDROID SETTINGS"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KUROZEN FRAME v0.1  •  DZG"
+        android:textColor="#555555"
+        android:textSize="10sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
